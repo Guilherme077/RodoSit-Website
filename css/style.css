@@ -82,6 +82,9 @@ ul {
     padding-bottom: 15%;
     background-color: rgb(210, 210, 210);
 }
+.twitter-timeline{
+    margin: 0 auto;
+}
 
 /* Rodapé do site */
 footer {
@@ -106,4 +109,29 @@ footer {
     max-width: 50%;
     padding: 0 20px;
   }
+
+  /* Configurações de tabela */
+  table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-style: solid;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #1c1c1c;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
   
