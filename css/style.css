@@ -53,6 +53,42 @@ ul {
   color: #333;
 }
 
+/*Parte de cima na pagina inicial*/
+
+.headerMain p{
+  color: white; /* Coloca o texto na cor branca */
+  font-weight: 900; /* Transforma o título em negrito */
+  font-size: 35px; /* Define o tamanho do Título */
+  padding-top: 150px; /* Adiciona espaço superior */
+  margin: 0; /* impede que sejam criadas margens ao redor do texto */
+}
+.headerMain{
+
+  padding-bottom: 150px; /* Adiciona espaço inferior */
+  text-align: center; /* Alinha os elementos */
+  background-image: url("../img/RodoBg.jpg"); /* Define a imagem como fundo da parte superior */
+  background-size: 100% 100%; /* Mantém o fundo preenchido */
+  background-position: center; /* Mantém o fundo centralizado */
+}
+
+.headerMain select{
+  background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 4px;
+display: inline-block;
+font-size: 16px;
+line-height: 1.3;
+padding: 10px 20px;
+width: 300px;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+.headerMain select option{
+  background-color: #fff;
+color: #333;
+}
+
 /* Parte de Títulos de seção */
 .TituloSecao{
     text-align: center; /* Centraliza os itens do título da seção */
